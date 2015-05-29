@@ -1,20 +1,80 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="APP">
-<head>
-    <meta charset="UTF-8">
-    <title>Simple FileUpload Module</title>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Playing with Nodejs and WebSockets">
+    <meta name="author" content="Gautam Anand">
+    <link rel="icon" href="images/favicon.ico">
 
-<body>
+    <title>Simple File Upload in Nodejs</title>
 
-         <a href="/upload"> Implement the GET for /Upload</a>
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/cover.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-         <br>
+  <body>
 
-        <form method='post' action='/upload' enctype="multipart/form-data">
-        <input type='file' name='fileUploaded'>
-        <input type='submit'>
+    <div class="site-wrapper">
 
-        </form>
- </body>
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"><a href="https://github.com/ga1989/fileupload-nodejs.git" target="_blank">Simple File Upload in Nodejs</a></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a target="_blank" href="http://gautamanand.in">Say Hi to Gautam!</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+
+<form class="form-inline" method='post' action='/upload' enctype="multipart/form-data">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+    <div class="input-group">
+      <div class="input-group-addon">You have selected </div>
+       <input class="form-control" type='file' name='fileUploaded'>
+      <div class="input-group-addon">file</div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Upload File</button>
+</form>
+
+
+
+
+			<h1 class="lead"><a href="/upload">See List of Uploaded Files (GET /UPLOAD) </a></h1>
+
+	
+
+
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+  </body>
 </html>
