@@ -13,15 +13,15 @@ To try it yourself :
 
 Step 1: The Interface - Upload a file
 
-![alt tag]()
+![alt tag](https://raw.githubusercontent.com/ga1989/fileupload-nodejs/master/Screens/interface.png)
 
 Step 2: The Terminal - this would demonstrate the details of file uploaded
 
-![alt tag]()
+![alt tag](https://raw.githubusercontent.com/ga1989/fileupload-nodejs/master/Screens/terminal.png)
 
 Step 3 : The /upload - This would scan the folder where files are uploaded and would parse them as json object
 
-![alt tag]()
+![alt tag](https://raw.githubusercontent.com/ga1989/fileupload-nodejs/master/Screens/files.png)
 
 
 
