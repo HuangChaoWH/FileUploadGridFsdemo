@@ -1,0 +1,8 @@
+title: Fileupload-nodejs
+description: Simple File Upload Module using NodeJS/Express and Middleware - connect-busboy, fs-extra, fs.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
